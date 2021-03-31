@@ -13,9 +13,10 @@ public class CalculatorSolution {
 		double a = SolutionRunner.multiply(5, 2);
 		 System.out.println(a);
 		
-		double b = SolutionRunner.div(5, 2);
+		double b = SolutionRunner.div(2, 5);
 		System.out.println(b);
 		
+
 		
 
 	}

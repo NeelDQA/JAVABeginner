@@ -17,12 +17,19 @@ public class SolutionRunner {
 		double result =  n1*n2;
 		return result;
 		
-	}
+		}
+		
+	
 	
 	public static double div( double n1 , double n2) {
+		if (n1>n2) {
 		double result = n1/n2;
 		return result;
-		
+		}
+		else {
+			System.out.println("Division cannot be performed ");
+		}
+		return 0;
 	}
 	
 }
