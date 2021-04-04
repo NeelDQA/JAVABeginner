@@ -4,7 +4,7 @@ public class Results {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ResultOps.phys =150;
+		ResultOps.phys =60;
 		ResultOps.chem = 14;
 		ResultOps.bio = 149;
 		

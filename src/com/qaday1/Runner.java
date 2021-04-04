@@ -5,33 +5,38 @@ public class Runner {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("Good Morning");
-		
-		int age = 25;
-		System.out.println(age);
-		
-		//String a = "hi";
-		//System.out.println(a);
-				
-		Hello.helloWorld();
-		Hello.h4();
-		
-	}
-	// Example data type formats
-	// Variables are named in camelCase
-	// Class names are in PascalCase
-	// Snake_case - underscore between words
-	int num = 4;
-	String str = "hii";
-	float price = 5f; // 5.0
-	boolean bool = true;
-	char myLetter = 'd';
-	double doub = 232;
-	long l = 64L; // big integers
 	
+	//ITERATION
 	
+	//Iterations.forloop(10);
+	// Iterations.whileLoop();
+		//Iterations.flow();
+		//Iterations.flow2();#
+		// BlackJack
+		//BlackJack.play(10, 21);
+		//BlackJack.play(20,18);
+		//BlackJack.play(22,22);
+		//BlackJack.play(22, 23);
+		
+		//Unique sum
+		int x = UniqueSum.input(1,2,3);
+		System.out.println(x);
+		int y = UniqueSum.input(3, 3, 3);
+		System.out.println(y);
+		int z = UniqueSum.input(1,1,2);
+		System.out.println(z);
+		
+		
+	
+		
+		
+		
+		
+		
+		
 	
 	
 	
 
+}
 }

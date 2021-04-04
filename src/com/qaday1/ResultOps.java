@@ -34,11 +34,15 @@ public class ResultOps {
 			
 			
 			
-			if (phys_percentage<60 | chem_percentage<60 | bio_percentage<60 ) {
+			if (phys_percentage<60 & chem_percentage<60 & bio_percentage<60 ) {
 				System.out.println("PERCENTAGE:" + (percentage) + "%" + "\n"
-						+ "YOU HAVE FAILED LOL");
+						+ "YOU HAVE FAILED EVERYTHING LOL");
 			}
-			else {
+			else if (phys_percentage<60 & chem_percentage<60 & bio_percentage>=60) {
+				System.out.println("PERCENTAGE:" + (percentage) + "%" + "\n"
+						+ "YOU HAVE FAILED PHYSICS AND CHEMISTRY LOL");
+			}
+			else  {
 			System.out.println("PERCENTAGE:" + (percentage) + "%");
 			}
 			
