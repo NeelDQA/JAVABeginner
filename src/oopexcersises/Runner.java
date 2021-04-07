@@ -21,6 +21,12 @@ public class Runner {
 		System.out.println(ford.toString());
 		System.out.println(ducatti.toString());
 		System.out.println(transit.toString());
+		
+		Garage manager = new Garage();
+			manager.addVehicle(ford);
+			manager.addVehicle(ducatti);
+			manager.addVehicle(transit);
+		
 	}
 
 }
